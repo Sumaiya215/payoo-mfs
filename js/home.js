@@ -13,7 +13,7 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
     // step-3: verify pin number
 
     if(pinNumberInput === '1234'){
-        console.log('adding money to your account');
+        // console.log('adding money to your account');
 
         // step-4: get the current balance
         const balance = document.getElementById('account-balance').innerText;
